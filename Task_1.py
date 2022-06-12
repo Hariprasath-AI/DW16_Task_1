@@ -14,7 +14,7 @@ only_alpha_upper = [x.upper() for x in only_alpha]
 top_level_domain_alpha = ['a', 'b', 'c', 'd', 'e' , 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's','t', 'u', 'v', 'w', 'x', 'y', 'z','.']
 
 # This function is used check whether the password we entered satisfies the constrains mentioned below:
-# "1. One number is must", "2. One special character is must", "3. One lowercase alphabet is must", "4. One uppercase alphabet is must", sep = "\n"
+# "1. One number is must", "2. One special character is must", "3. One lowercase alphabet is must", "4. One uppercase alphabet is must"
 def password_validation(val):
     upper_alpha_count = 0
     lower_alpha_count = 0
@@ -286,7 +286,7 @@ if __name__ == "__main__":
     print("-----------------------------------------")
 
     # First get E-mail Id as input from the user
-    mail_id = str(input("Enter your main ID: "))
+    mail_id = str(input("Enter your mail ID: "))
 
     # Calling a function by passing argument 'mail_id'
     login_register(mail_id)
